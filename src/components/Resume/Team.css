@@ -1,0 +1,58 @@
+/* Updated CSS */
+.Go-Back{
+    margin-top: 150px;
+}
+.Team {
+    margin-top: 50px; /* Add margin-top to create space below the navbar */
+    display: flex;
+    justify-content:space-between; /* Add gap between cards */
+    flex-wrap: wrap;
+    gap: 20px; /* Define the gap between cards */
+    padding: 0 70px;
+  }
+  
+  .box {
+    background-color: rgba(20, 33, 61, 0.6);
+    margin-bottom: 45px;
+    height: 270px;
+    width: 270px; /* Adjust card width and margin based on the gap */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .imgBx {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Team_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+  @media (max-width: 991px) {
+    .box {
+      width: calc(50% - 20px); /* Adjust card width for smaller screens */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .box {
+      width: calc(100% - 20px); /* Adjust card width for mobile screens */
+    }
+  }
+  
